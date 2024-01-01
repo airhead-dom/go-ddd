@@ -1,0 +1,16 @@
+POST http://localhost:8080/todos
+Content-Type: application/json
+
+{
+  "title": "Eat a fucking shit",
+  "description": "eat your motherfucking food u little shit",
+  "ownedBy": 2
+}
+
+###
+GET http://localhost:8080/todos
+Accept: application/json
+
+###
+
+
